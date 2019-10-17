@@ -1,0 +1,7 @@
+df <- read.csv('PlotData.csv')
+summary(df$SGV)
+summary(df$Raw)
+summary(df$SavitzkyGolay)
+summary(df$LeastSquares)
+summary(df$Flat)
+summary(df$Hamming)
